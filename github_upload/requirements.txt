@@ -1,0 +1,5 @@
+h5py==3.13.0
+numpy==1.26.4
+scipy==1.13.1
+scikit-learn==1.5.1
+torch==2.8.0.dev20250526+cu128
