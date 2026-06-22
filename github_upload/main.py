@@ -19,14 +19,8 @@ from datetime import datetime
 # 0. 全局配置
 # ============================================================
 INPUT_H5_PATH =  '/media/swust123/DATA1/qiu_data/project/real_data/filter/' + 'GSE75748' +'.h5'
-OUTPUT_H5_PATH =  "/media/swust123/DATA1/qiu_data/project/real_data/New2/filter/our_impute/GSE75748"+"_our1.h5"
-'''
-GSE103976 GSE115469_processed GSM2230757_human1 GSM2230758_human2 GSM2230759_human3 GSM2230760_human4	GSM2230761_mouse1
-GSM2230762_mouse2	68k_pbmc_down	GSE84133_mouse	GSE84133_human	GSE102827_down	GSE138852	E-MTAB-3929_human	GSE75748
-GSE102827  GSE75748_human GSE52529 GSE65525 GSE112274
+OUTPUT_H5_PATH =  "/media/swust123/DATA1/qiu_data/project/real_data/New2/filter/our_impute/GSE75748"+"_our.h5"
 
-/media/swust123/DATA1/qiu_data/project/real_data/New2/filter/our_impute/  数据统一存储在这个位置
-'''
 
 
 DATA_KEY = "data"
