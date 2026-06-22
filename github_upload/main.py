@@ -276,9 +276,6 @@ class ConstrastiveLoss(nn.Module):
         return self.criterion(sim, targets)
 
 
-# ============================================================
-# 3. SimCLR 训练
-# ============================================================
 
 def data_augmentations(X, rate=0.4):
     X_aug = X.clone()
